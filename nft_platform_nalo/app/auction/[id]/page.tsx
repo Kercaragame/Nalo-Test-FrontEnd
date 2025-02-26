@@ -43,7 +43,7 @@ export default function Page() {
                     <li>like: {auction.like}</li>
                     <li>price: {auction.price}</li>
                     <li>time left: {auction.timeLeft}</li>
-                    <li>total minted{auction.totalMinted}</li>
+                    <li>total minted: {auction.totalMinted}</li>
                   </ul>
                   <div className="w-fit">
                     <p className="text-zinc-700 font-semibold text-sm mt-2">

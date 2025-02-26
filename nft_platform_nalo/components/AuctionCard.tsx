@@ -32,7 +32,10 @@ function AuctionCard({ auction }: { auction: Auction }) {
       ) : (
         <>
           {" "}
-          <div className="p-4">
+          <div
+            className="p-4"
+            data-testid={`auction-seller-${auction.sellerId}`}
+          >
             <div className="">
               <Image
                 src={auction.image}

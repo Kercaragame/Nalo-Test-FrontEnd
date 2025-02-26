@@ -15,6 +15,8 @@ const SellerCard = ({ seller, rank }: { seller: Seller; rank?: number }) => {
       onClick={() => {
         handleSellerClicked();
       }}
+      data-testid={`seller-card-${seller.id}`}
+      role="seller-card"
       className="flex p-2 justify-start items-center hover:cursor-pointer hover:shadow-sm hover:bg-gray-100 rounded-md "
     >
       {rank && (
