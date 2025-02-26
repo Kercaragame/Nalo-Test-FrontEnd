@@ -1,0 +1,144 @@
+{
+  "nfts": [
+    {
+      "id": "1",
+      "name": "Origins Sculpture",
+      "totalMinted": 8,
+      "price": "2.78",
+      "like": 195,
+      "forSale": 3,
+      "timeLeft": "22 hours",
+      "isHot": true,
+      "sellerId": 4321,
+      "image": "/auctions/auction1.avif"
+    },
+    {
+      "id": "2",
+      "name": "The Dark Corner Sculpture",
+      "totalMinted": 5,
+      "price": "2.93",
+      "like": 240,
+      "forSale": 4,
+      "timeLeft": "16 hours",
+      "isHot": false,
+      "sellerId": 9983,
+      "image": "/auctions/auction2.avif"
+    },
+    {
+      "id": "3",
+      "name": "Secret Door",
+      "totalMinted": 3,
+      "price": "4.10",
+      "like": 89,
+      "forSale": 4,
+      "timeLeft": "22 hours",
+      "isHot": true,
+      "sellerId": 2343,
+      "image": "/auctions/auction3.avif"
+    },
+    {
+      "id": "4",
+      "name": "Ceres Searching",
+      "totalMinted": 2,
+      "price": "10.89",
+      "like": 400,
+      "forSale": 1,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 2323,
+      "image": "/auctions/auction4.avif"
+    },
+    {
+      "id": "5",
+      "name": "Modird Goal",
+      "totalMinted": 2,
+      "price": "1.89",
+      "like": 234,
+      "forSale": 4,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 9983,
+      "image": "/auctions/auction5.avif"
+    },
+    {
+      "id": "6",
+      "name": "Ceres Searching",
+      "totalMinted": 2,
+      "price": "10.89",
+      "like": 400,
+      "forSale": 1,
+      "timeLeft": "2 days",
+      "isHot": true,
+      "sellerId": 2323,
+      "image": "/auctions/auction6.avif"
+    },
+    {
+      "id": "7",
+      "name": "Moroze",
+      "totalMinted": 10,
+      "price": "10.89",
+      "like": 100,
+      "forSale": 1,
+      "timeLeft": "1 days",
+      "isHot": true,
+      "sellerId": 4982,
+      "image": "/auctions/auction7.avif"
+    },
+    {
+      "id": "8",
+      "name": "Pickchu",
+      "totalMinted": 5,
+      "price": "10.89",
+      "like": 9,
+      "forSale": 43,
+      "timeLeft": "1 days",
+      "isHot": true,
+      "sellerId": 4984,
+      "image": "/auctions/auction8.avif"
+    }
+  ],
+  "bestSellers": [
+    {
+      "name": "Richard Noga",
+      "id": 2323,
+      "isVerified": true,
+      "avatar": "/avatars/avatar1.webp"
+    },
+    {
+      "name": "Pingu",
+      "id": 2343,
+      "isVerified": false,
+      "avatar": "/avatars/avatar2.webp"
+    },
+    {
+      "name": "DoggieBoy",
+      "id": 4321,
+      "isVerified": false,
+      "avatar": "/avatars/avatar3.webp"
+    },
+    {
+      "name": "Julian Co",
+      "id": 4984,
+      "isVerified": false,
+      "avatar": "/avatars/avatar4.webp"
+    },
+    {
+      "name": "Camillo Ferrari",
+      "id": 9983,
+      "isVerified": false,
+      "avatar": "/avatars/avatar5.webp"
+    },
+    {
+      "name": "Ausonia_loi",
+      "id": 3421,
+      "isVerified": false,
+      "avatar": "/avatars/avatar6.webp"
+    },
+    {
+      "name": "Tito",
+      "id": 4982,
+      "isVerified": false,
+      "avatar": "/avatars/avatar7.webp"
+    }
+  ]
+}
