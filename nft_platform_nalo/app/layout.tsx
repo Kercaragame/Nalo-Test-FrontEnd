@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ClientErrorBoundary from "@/components/ClientErrorBoundary";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +16,11 @@ export default function RootLayout({
     <html lang="en">
       <head></head>
       <body>
-        <div className="container mx-auto mt-10 px-6">{children}</div>
+        <div className="container mx-auto mt-10 px-6">
+          <ClientErrorBoundary pageTitle="Oops! Something went wrong">
+            {children}
+          </ClientErrorBoundary>
+        </div>
       </body>
     </html>
   );
